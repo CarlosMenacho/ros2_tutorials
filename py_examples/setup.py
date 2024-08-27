@@ -26,7 +26,10 @@ setup(
             'publipy = py_examples.pub:main',
             'subpy = py_examples.sub:main',
             'server = py_examples.service_py_example:main',
-            'client = py_examples.client_py_example:main'
+            'client = py_examples.client_py_example:main',
+            'pos_server = py_examples.position_service:main',
+            # py_examples/py_examples/position_service.py
+            'pos_client = py_examples.position_client:main',
         ],
     },
 )
