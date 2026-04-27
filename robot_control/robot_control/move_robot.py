@@ -1,8 +1,6 @@
 import rclpy
 from rclpy.node import Node
-
 from geometry_msgs.msg import TwistStamped
-
 
 class RobotMove(Node):
 
@@ -30,7 +28,6 @@ def main(args=None):
     rclpy.spin(minimal_publisher)
     minimal_publisher.destroy_node()
     rclpy.shutdown()
-
 
 if __name__ == '__main__':
     main()

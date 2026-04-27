@@ -25,6 +25,7 @@ setup(
     entry_points={
         'console_scripts': [
             'move = robot_control.move_robot:main',
+            'read_lidar = robot_control.lidar_read:main'
         ],
     },
 )
